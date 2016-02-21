@@ -6,10 +6,11 @@ Authors@R: c(person("Jose", "Alquicira Hernandez", email = "joseah@lcg.unam.mx",
 			 person("Robert", "Philips", email = "rphillips5@gulls.salisbury.edu", role = "aut"),
 			 person("Nishika", "Karbhari", email = "nishika@utexas.edu", role = "aut"))
 Description: This package is designed to get, manipulate and normalize metadata from SRA easily.
-Depends:
+Depends: 
     R (>= 3.2.3),RSQLite, magrittr, stringr, Caret, RandomForest, R.utils
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
-Suggests: knitr, BiocStyle, SRAdb
+Suggests: knitr, BiocStyle, SRAdb,
+    rmarkdown
