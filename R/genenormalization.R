@@ -1,5 +1,7 @@
-#' normalize gene expressions for sra metadata database
-#'
+#' @import rtracklayer
+#' @import GenomicRanges
+
+#' @title normalize gene expressions for sra metadata database
 #' @param file file:filename
 #' @param path path used in the .sh file
 #' @param chr chr specify which chromosome is inspected
@@ -10,8 +12,6 @@
 #' @export
 #' 
 #' @examples 
-#' library(rtracklayer)
-#' library(GenomicRanges)
 #' normalized(file = scan("sra_samples.txt", what="", sep="\n"), path = path, chr = "chrY", start = 14813160, end = 14972768)
 
 
