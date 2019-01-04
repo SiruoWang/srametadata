@@ -3,8 +3,7 @@ Title: Getting and cleaning metadata from Sequence Read Archive (SRA)
 Version: 0.0.0.9000
 Authors@R: c(person("Jose", "Alquicira Hernandez", email = "joseah@lcg.unam.mx", role = c("aut", "cre")),
 			 person("Siruo(Sara)", "Wang", email = "sara.siruo@gmail.com", role = c("aut", "cre")),
-			 person("Robert", "Philips", email = "rphillips5@gulls.salisbury.edu", role = "aut"),
-			 person("Nishika", "Karbhari", email = "nishika@utexas.edu", role = "aut"))
+			 )
 Description: This package is designed to get, manipulate and normalize metadata from SRA easily.
 Depends: 
     R (>= 3.2.3),RSQLite, magrittr, stringr, Caret, RandomForest, R.utils
