@@ -1,3 +1,4 @@
+#' @import srametadata
 #' Get all raw metadata from SRA
 #' 
 #' Get all raw metadata from SRA associated with SRA accessions numbers
@@ -15,7 +16,6 @@
 #' @export
 #' 
 #' @examples 
-#' library('srametadata')
 #'
 #' sqlfile <- file.path('.', 'SRAmetadb.sqlite')
 #'
