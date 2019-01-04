@@ -1,3 +1,4 @@
+#' @import srametadata
 #' Get urls for downloading fastq files 
 #' 
 #' Gets all urls, file names and md5 values associated with run accessions.
@@ -11,7 +12,6 @@
 #' @export
 #' 
 #' @examples
-#' library('srametadata')
 #' 
 #' # Get path to sqlite database
 #' sqlfile <- file.path('.', 'SRAmetadb.sqlite')
